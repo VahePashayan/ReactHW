@@ -5,8 +5,8 @@ import weatherInfo from './Components/data';
 
 function App() {
   return  <div>
-    {Header()}
-    {Cards(weatherInfo)}
+    <Header />
+    <Cards data={weatherInfo}/>
     </div>
   ;
 }
