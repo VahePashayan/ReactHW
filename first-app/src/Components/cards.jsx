@@ -5,7 +5,7 @@ import Card from './card';
 import './cards.css'
 
 export default function Cards(props) {
-  let elements = props.map((el) => {
+  let elements = props.data.map((el) => {
     if (parseInt(el.temp) > 37) {
       el.imgURL = sun;
       return <Card day={el} />;
