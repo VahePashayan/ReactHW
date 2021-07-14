@@ -2,6 +2,7 @@ import cloudyRain from '../assets/cloudyRain.svg';
 import cloudySun from '../assets/cloudySun.svg';
 import sun from '../assets/sun.svg';
 import Card from './card';
+import './cards.css'
 
 export default function Cards(props) {
   let elements = props.map((el) => {

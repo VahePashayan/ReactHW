@@ -1,3 +1,16 @@
 .card {
-    border: 4px;
+    text-align: center;
+    border: 5px black;
+    width: 23%;
+    border: 5px solid brown;
+    border-radius: 10px;
+    transition: 500ms;
+    max-width: 150px;
+    width: 100%;
+    background-color: burlywood;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }

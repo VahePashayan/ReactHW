@@ -1,3 +1,5 @@
+import './header.css'
+
 export default function Header() {
-    return <h1 className="">{"Weather Forecast"}</h1>
+    return <h1 className="Header">{"Weather Forecast"}</h1>
 }
